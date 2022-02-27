@@ -97,7 +97,7 @@ SSH into the control node and follow the steps below:
   - Copy of the hosts file is also here: [hosts](https://github.com/Spacesmurf3/Automated-ELK-Stack-Deployment/blob/8e77c1cff9f8fd0a90f15313dc113aea8fe45b7a/Hosts.txt)
   - Run the playbook, and navigate to Kibana (http://[your_elk_server_ip:5601]/app/kibana) to check that the installation worked as expected. If the installation is working as expected you should see:
 
-![Image}(https://github.com/Spacesmurf3/Automated-ELK-Stack-Deployment/blob/955d125f173000eb8ed69d548b53c8707601e1d8/Images/Filebeat_VRF_INSTL.PNG)
+![Image](https://github.com/Spacesmurf3/Automated-ELK-Stack-Deployment/blob/955d125f173000eb8ed69d548b53c8707601e1d8/Images/Filebeat_VRF_INSTL.PNG)
 
 and
 
