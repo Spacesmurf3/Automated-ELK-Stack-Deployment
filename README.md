@@ -92,8 +92,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the Elk_playbook.yml file to Ansible Control Node.
-- Update the hosts file to include webserver and ELK.
-- Run the playbook, and navigate to Kibana (http://[Host IP:5601]/app/kibana) to check that the installation worked as expected.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._ 
+  - Copy the playbook file to Ansible Control Node. Playbooks for Filebeat and   - Metricbeat are also here: [filebeat](https://github.com/Spacesmurf3/Automated-ELK-Stack-Deployment/blob/8e77c1cff9f8fd0a90f15313dc113aea8fe45b7a/filebeat-playbook.yml) and [metricbeat](https://github.com/Spacesmurf3/Automated-ELK-Stack-Deployment/blob/8e77c1cff9f8fd0a90f15313dc113aea8fe45b7a/metricbeat-playbook.yml)
+  - Update the hosts file to include webserver and ELK.
+  - Copy of the hosts file is also here: [hosts](https://github.com/Spacesmurf3/Automated-ELK-Stack-Deployment/blob/8e77c1cff9f8fd0a90f15313dc113aea8fe45b7a/Hosts.txt)
+  - Run the playbook, and navigate to Kibana (http://[your_elk_server_ip:5601]/app/kibana) to check that the installation worked as expected. If the installation is working as expected you should see:
