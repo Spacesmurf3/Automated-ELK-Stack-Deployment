@@ -21,20 +21,13 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly available and reliable, in addition to restricting in-bound access to the network.
-  -What aspect of security do load balancers protect?
-    *Load balancers protects the system from DDoS attacks by shifting      attack traffic.  
-  -What is the advantage of a jump box?
-    *The advantage of a jump box is to give access to the user from a single node that can be secured and monitored.
+Load balancing ensures that the application will be highly available and reliable, in addition to restricting in-bound access to the network. Load balancers protects the system from DDoS attacks by shifting attack traffic. A load balancer intelligently distributes traffic from clients across multiple servers without the clients having to understand how many servers are in use or how they are configured. Because the load balancer sits between the clients and the servers it can enhance the user experience by providing additional security, performance, resilience and simplify scaling your website. 
+  
+The advantage of a jump box is to give access to the user from a single node that can be secured and monitored.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the jumpbox and system network.
-  -What does Filebeat watch for?
-    *Filebeat watches for any information in the file system that has      been changed and when it was changed.
-  -What does Metricbeat record?
-    *Metricbeat takes the metrics and statistics and sends them to the specified output.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the jumpbox and system network. Filebeat watches for any information in the file system that has been changed and when it was changed. Metricbeat takes the metrics and statistics and sends them to the specified output.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name       | Function   | IP Address | Operating System |
 |------------|------------|------------|------------------|
